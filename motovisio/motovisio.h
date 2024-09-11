@@ -1,16 +1,16 @@
 /** @file
- *  @brief MAVLink comm protocol generated from rb5000.xml
+ *  @brief MAVLink comm protocol generated from motovisio.xml
  *  @see http://mavlink.org
  */
 #pragma once
-#ifndef MAVLINK_RB5000_H
-#define MAVLINK_RB5000_H
+#ifndef MAVLINK_MOTOVISIO_H
+#define MAVLINK_MOTOVISIO_H
 
 #ifndef MAVLINK_H
-    #error Wrong include order: MAVLINK_RB5000.H MUST NOT BE DIRECTLY USED. Include mavlink.h from the same directory instead or set ALL AND EVERY defines from MAVLINK.H manually accordingly, including the #define MAVLINK_H call.
+    #error Wrong include order: MAVLINK_MOTOVISIO.H MUST NOT BE DIRECTLY USED. Include mavlink.h from the same directory instead or set ALL AND EVERY defines from MAVLINK.H manually accordingly, including the #define MAVLINK_H call.
 #endif
 
-#define MAVLINK_RB5000_XML_HASH -7685848323910040519
+#define MAVLINK_MOTOVISIO_XML_HASH -1096757587934808163
 
 #ifdef __cplusplus
 extern "C" {
@@ -28,7 +28,7 @@ extern "C" {
 
 #include "../protocol.h"
 
-#define MAVLINK_ENABLED_RB5000
+#define MAVLINK_ENABLED_MOTOVISIO
 
 // ENUM DEFINITIONS
 
@@ -54,7 +54,7 @@ extern "C" {
 
 
 
-#if MAVLINK_RB5000_XML_HASH == MAVLINK_PRIMARY_XML_HASH
+#if MAVLINK_MOTOVISIO_XML_HASH == MAVLINK_PRIMARY_XML_HASH
 # define MAVLINK_MESSAGE_INFO {MAVLINK_MESSAGE_INFO_CURRENT_DEPTH, MAVLINK_MESSAGE_INFO_TETHER_INFO, MAVLINK_MESSAGE_INFO_TETHER_COMMAND}
 # define MAVLINK_MESSAGE_NAMES {{ "CURRENT_DEPTH", 187 }, { "TETHER_COMMAND", 189 }, { "TETHER_INFO", 188 }}
 # if MAVLINK_COMMAND_24BIT
@@ -65,4 +65,4 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif // __cplusplus
-#endif // MAVLINK_RB5000_H
+#endif // MAVLINK_MOTOVISIO_H

@@ -10,7 +10,7 @@
     #error Wrong include order: MAVLINK_STANDARD.H MUST NOT BE DIRECTLY USED. Include mavlink.h from the same directory instead or set ALL AND EVERY defines from MAVLINK.H manually accordingly, including the #define MAVLINK_H call.
 #endif
 
-#define MAVLINK_STANDARD_XML_HASH -1753971325598912361
+#define MAVLINK_STANDARD_XML_HASH 6838242266563611435
 
 #ifdef __cplusplus
 extern "C" {
@@ -50,7 +50,7 @@ extern "C" {
 
 // base include
 #include "../minimal/minimal.h"
-#include "../rb5000/rb5000.h"
+#include "../motovisio/motovisio.h"
 
 
 #if MAVLINK_STANDARD_XML_HASH == MAVLINK_PRIMARY_XML_HASH

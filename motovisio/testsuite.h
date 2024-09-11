@@ -1,10 +1,10 @@
 /** @file
- *    @brief MAVLink comm protocol testsuite generated from rb5000.xml
+ *    @brief MAVLink comm protocol testsuite generated from motovisio.xml
  *    @see https://mavlink.io/en/
  */
 #pragma once
-#ifndef RB5000_TESTSUITE_H
-#define RB5000_TESTSUITE_H
+#ifndef MOTOVISIO_TESTSUITE_H
+#define MOTOVISIO_TESTSUITE_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -13,12 +13,12 @@ extern "C" {
 #ifndef MAVLINK_TEST_ALL
 #define MAVLINK_TEST_ALL
 
-static void mavlink_test_rb5000(uint8_t, uint8_t, mavlink_message_t *last_msg);
+static void mavlink_test_motovisio(uint8_t, uint8_t, mavlink_message_t *last_msg);
 
 static void mavlink_test_all(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
 {
 
-    mavlink_test_rb5000(system_id, component_id, last_msg);
+    mavlink_test_motovisio(system_id, component_id, last_msg);
 }
 #endif
 
@@ -206,7 +206,7 @@ static void mavlink_test_tether_command(uint8_t system_id, uint8_t component_id,
 #endif
 }
 
-static void mavlink_test_rb5000(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
+static void mavlink_test_motovisio(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
 {
     mavlink_test_current_depth(system_id, component_id, last_msg);
     mavlink_test_tether_info(system_id, component_id, last_msg);
@@ -216,4 +216,4 @@ static void mavlink_test_rb5000(uint8_t system_id, uint8_t component_id, mavlink
 #ifdef __cplusplus
 }
 #endif // __cplusplus
-#endif // RB5000_TESTSUITE_H
+#endif // MOTOVISIO_TESTSUITE_H

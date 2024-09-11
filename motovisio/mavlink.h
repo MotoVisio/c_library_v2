@@ -1,12 +1,12 @@
 /** @file
- *  @brief MAVLink comm protocol built from rb5000.xml
+ *  @brief MAVLink comm protocol built from motovisio.xml
  *  @see http://mavlink.org
  */
 #pragma once
 #ifndef MAVLINK_H
 #define MAVLINK_H
 
-#define MAVLINK_PRIMARY_XML_HASH -7685848323910040519
+#define MAVLINK_PRIMARY_XML_HASH -1096757587934808163
 
 #ifndef MAVLINK_STX
 #define MAVLINK_STX 253
@@ -29,6 +29,6 @@
 #endif
 
 #include "version.h"
-#include "rb5000.h"
+#include "motovisio.h"
 
 #endif // MAVLINK_H
